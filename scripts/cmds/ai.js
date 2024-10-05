@@ -1,4 +1,4 @@
- const { getPrefix, getStreamFromURL, uploadImgbb } = global.utils;
+const { getPrefix, getStreamFromURL, uploadImgbb } = global.utils;
 async function ai({ message: m, event: e, args: a, usersData: u }) {
   var p = [`${await getPrefix(e.threadID)}${this.config.name}`,
 `${this.config.name}`
@@ -63,4 +63,4 @@ role: 0,
  },
  onStart: function() {},
  onChat: ai
-}
+};
