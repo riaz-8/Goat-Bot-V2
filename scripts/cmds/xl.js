@@ -1,4 +1,4 @@
-.cmd install xl.js 
+
 module.exports={config:{name:"xl",version:"1.0",author:"Team Calyx",countDown:10,role:0,longDescription:{en:"Generate an image from text using SDXL."},category:"image",guide:{en:"{pn} prompt [--ar=<ratio>]"}},onStart:async function({message:e,api:t,args:a,event:n}){let r=a.join(" ");if(!r)return e.reply(`😖 Please enter a text prompt
 
 Example: 
